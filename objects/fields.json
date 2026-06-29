@@ -1,336 +1,64 @@
 [
   {
-    "qName": "%MASTER_CAL",
+    "qName": "Attribute",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "Table_A"
+    ]
+  },
+  {
+    "qName": "Available Sizes",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CombinedGenericTable"
+    ]
+  },
+  {
+    "qName": "Color",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CombinedGenericTable"
+    ]
+  },
+  {
+    "qName": "Material",
+    "qTags": [
+      "$ascii",
+      "$text"
+    ],
+    "qSrcTables": [
+      "CombinedGenericTable"
+    ]
+  },
+  {
+    "qName": "ProductID",
     "qTags": [
       "$key",
-      "$numeric",
-      "$integer",
-      "$timestamp",
-      "$date"
+      "$ascii",
+      "$text"
     ],
     "qSrcTables": [
-      "MASTER_CAL",
-      "Facts"
+      "Table_A",
+      "CombinedGenericTable"
     ]
   },
   {
-    "qName": "Facts.AdjustmentLevelID",
-    "qTags": [],
-    "qSrcTables": [
-      "Facts"
-    ]
-  },
-  {
-    "qName": "Facts.DataLevelID",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "Facts"
-    ]
-  },
-  {
-    "qName": "Facts.OrganisationElementID",
-    "qTags": [],
-    "qSrcTables": [
-      "Facts"
-    ]
-  },
-  {
-    "qName": "Facts.PartnerID",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "Facts"
-    ]
-  },
-  {
-    "qName": "Facts.PeriodID",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "Facts"
-    ]
-  },
-  {
-    "qName": "Facts.ReportElementID",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "Facts"
-    ]
-  },
-  {
-    "qName": "Facts.StructureTransactionTypeID",
-    "qTags": [],
-    "qSrcTables": [
-      "Facts"
-    ]
-  },
-  {
-    "qName": "Facts.Value",
-    "qTags": [
-      "$numeric"
-    ],
-    "qSrcTables": [
-      "Facts"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.BusinessYearFlag",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.Calendartype",
+    "qName": "Value",
     "qTags": [
       "$ascii",
       "$text"
     ],
     "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.Date",
-    "qTags": [
-      "$numeric",
-      "$integer",
-      "$timestamp",
-      "$date"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.Day",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.DayNumber",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.MonthNum",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.MonthNumOriginal",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.MonthYear",
-    "qTags": [
-      "$numeric",
-      "$integer",
-      "$timestamp",
-      "$date"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.Month_D",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.Month_E",
-    "qTags": [
-      "$ascii",
-      "$text"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.PeriodID",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.Quarter",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.QuarterYear",
-    "qTags": [
-      "$numeric",
-      "$integer",
-      "$timestamp",
-      "$date"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.ShortDate",
-    "qTags": [
-      "$numeric",
-      "$integer",
-      "$timestamp",
-      "$date"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.Week",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.WeekDay",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.YTD",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.YTDAC",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.YTDLLLY",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.YTDLLY",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.YTDLY",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.Year",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.YearDayNumber",
-    "qTags": [
-      "$numeric",
-      "$integer"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
-    ]
-  },
-  {
-    "qName": "MASTER_CAL.YearWeek",
-    "qTags": [
-      "$numeric",
-      "$integer",
-      "$timestamp",
-      "$date"
-    ],
-    "qSrcTables": [
-      "MASTER_CAL"
+      "Table_A"
     ]
   }
 ]

@@ -1,14 +1,14 @@
 {
   "qInfo": {
-    "qId": "4aa976a5-db45-4797-a88b-0d3be4f90dc2",
+    "qId": "01b24f15-2394-4aac-af79-cc42a7d6d3e3",
     "qType": "variable"
   },
   "qMetaDef": {},
-  "qName": "varMinDatum",
+  "qName": "vTable",
   "qNumberPresentation": {
     "qType": "U",
     "qnDec": 10,
     "qUseThou": 0
   },
-  "qDefinition": "44197"
+  "qDefinition": "TEST"
 }

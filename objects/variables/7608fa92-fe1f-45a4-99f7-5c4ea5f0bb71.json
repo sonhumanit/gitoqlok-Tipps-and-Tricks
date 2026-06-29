@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "7608fa92-fe1f-45a4-99f7-5c4ea5f0bb71",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vTableName",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "Table_A-1.Available Sizes",
+  "qIsScriptCreated": true
+}

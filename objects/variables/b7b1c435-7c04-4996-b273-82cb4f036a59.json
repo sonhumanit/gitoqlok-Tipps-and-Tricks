@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "b7b1c435-7c04-4996-b273-82cb4f036a59",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vListOfTables",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "'Table_A-1.Color','Table_A-1.Material','Table_A-1.Available Sizes'",
+  "qIsScriptCreated": true
+}

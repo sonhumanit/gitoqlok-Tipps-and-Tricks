@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "fb640e03-5dfd-4a95-8ba8-6840272b434a",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "varMaxDatum",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "46387",
+  "qIsScriptCreated": true
+}

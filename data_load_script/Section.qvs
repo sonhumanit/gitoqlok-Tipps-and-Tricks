@@ -1,0 +1,16 @@
+///$tab Section
+Qualify *;
+Unqualify '%*';
+
+LOAD
+	date(date#(PeriodID & 01, 'YYYYMMDD'), 'dd.MM.YYYY') AS %MASTER_CAL,
+    Value,
+    ReportElementID,
+    PeriodID,
+    StructureTransactionTypeID,
+    OrganisationElementID,
+    PartnerID,
+    DataLevelID,
+    AdjustmentLevelID
+FROM [lib://Data/Facts.xlsx]
+(ooxml, embedded labels, table is Facts);

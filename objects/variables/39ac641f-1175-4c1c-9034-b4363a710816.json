@@ -1,0 +1,15 @@
+{
+  "qInfo": {
+    "qId": "39ac641f-1175-4c1c-9034-b4363a710816",
+    "qType": "variable"
+  },
+  "qMetaDef": {},
+  "qName": "vFM",
+  "qNumberPresentation": {
+    "qType": "U",
+    "qnDec": 10,
+    "qUseThou": 0
+  },
+  "qDefinition": "10",
+  "qIsScriptCreated": true
+}
